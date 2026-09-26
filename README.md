@@ -55,3 +55,26 @@ The evaluation includes:
 Threshold-based metrics are evaluated for rain/no-rain conditions and precipitation percentiles including the 75th, 90th, 95th, and 99th percentiles.
 
 Uncertainty is quantified using event-based bootstrap confidence intervals.
+
+## Data Availability
+
+The datasets used in this study are publicly available from the following sources:
+
+- **GFS:** Global Forecast System (GFS) data are available through the NOAA Open Data Dissemination program via the Registry of Open Data on AWS:  
+  https://registry.opendata.aws/noaa-gfs-bdp-pds/
+
+- **GEFS:** Global Ensemble Forecast System (GEFS) data are available through the NOAA Open Data Dissemination program via the Registry of Open Data on AWS:  
+  https://registry.opendata.aws/noaa-gefs/
+
+- **GraphCast and AIFS:** GraphCast and Artificial Intelligence Forecasting System (AIFS) datasets used in this study were obtained from Brightband and are available under the CC-BY-SA 4.0 license. The datasets can be accessed through the Earthmover Marketplace:  
+  https://app.earthmover.io/marketplace/6969541cb7bd57a837d648c8 or directly from Google Cloud Storage: gs://brightband-public-mlwp-forecast-archive
+  
+- **Extreme Weather Bench (EWB):** Atmospheric river events were identified using the Extreme Weather Bench framework. Version 1.0.2 was used in this study. The framework is publicly available on GitHub:  
+https://github.com/brightbandtech/ExtremeWeatherBench
+
+Version 1.0.2 is permanently archived on Zenodo:  
+https://zenodo.org/records/19924742
+
+The atmospheric river event definitions and processed metadata used for the evaluation are provided in this repository to facilitate reproducibility.
+
+  
